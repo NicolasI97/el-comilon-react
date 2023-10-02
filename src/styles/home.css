@@ -1,0 +1,41 @@
+.fullscreen {
+    background-color: #f5f5f5;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .full img{
+        display: flex;
+        width: 100vw;
+
+    }
+}
+
+.full img {
+    height: 100vh;
+}
+
+.btnFinalizar {
+    width: 13rem;
+    height: 2rem;
+    background: none;
+    opacity: 100;
+}
+
+.finalizar {
+    width: 23rem;
+}
+
+.over {
+    height: 19rem;
+    overflow: auto;
+}
+
+.list-group-item.active {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
