@@ -7,7 +7,7 @@ export const Comilon = () => {
 
     return (
         <Provider store={store}>
-            <MainRoutes />
+            <MainRoutes /> 
         </Provider>
     )
 }
